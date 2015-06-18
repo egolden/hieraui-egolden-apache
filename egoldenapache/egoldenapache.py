@@ -3,7 +3,7 @@ from app.form import Form
 
 class Egoldenapache(Form):
 
-	def validate(_self, form_data);
+	def validate(_self, form_data):
 		valid = True
 		if 'vhost' not in form_data or \
 		   'docroot' not in form_data or \
